@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OpenAI Math Notation Converter</title>
+    <style>
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        textarea {
+            width: 100%;
+            height: 400px;
+            margin: 10px 0;
+            font-family: monospace;
+        }
+        .label {
+            font-weight: bold;
+            margin-top: 15px;
+        }
+        h1 {
+            margin-bottom: 25px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>OpenAI Math Notation Converter</h1>
+        <div class="label">Input (OpenAI Output):</div>
+        <textarea id="input" placeholder="Paste OpenAI output here..."></textarea>
+        
+        <div class="label">Processed Output:</div>
+        <textarea id="output" readonly></textarea>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
